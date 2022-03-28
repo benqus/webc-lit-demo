@@ -1,0 +1,17 @@
+{
+  "name": "webc-lit-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:benqus/webc-lit-demo.git",
+  "author": "Bence Kormos <ben.kormos@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./index.html --log-level info"
+  },
+  "dependencies": {
+    "lit": "^2.2.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.0"
+  }
+}
